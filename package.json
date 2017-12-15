@@ -1,5 +1,5 @@
 {
-  "name": "neat-preconfig-eslint",
+  "name": "eslint-config-neat",
   "version": "1.0.0",
   "description": "Simple node package uses to get display name",
   "main": "index.js",
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pmkhoa/neat-preconfig-eslint.git"
+    "url": "git+https://github.com/pmkhoa/eslint-config-neat.git"
   },
   "author": "Khoa Pham",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pmkhoa/neat-preconfig-eslint/issues"
+    "url": "https://github.com/pmkhoa/eslint-config-neat/issues"
   },
-  "homepage": "https://github.com/pmkhoa/neat-preconfig-eslint#readme",
+  "homepage": "https://github.com/pmkhoa/eslint-config-neat#readme",
   "dependencies": {
     "babel-eslint": "^8.0.3",
     "eslint": "^4.13.1",
