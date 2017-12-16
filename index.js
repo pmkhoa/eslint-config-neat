@@ -1,4 +1,4 @@
-config = {
+var config = {
   parser: 'babel-eslint',
   extends: ['airbnb', 'prettier'],
   parserOptions: {
@@ -16,19 +16,14 @@ config = {
 
 // Test env level rules
 if (process.env.NODE_ENV === 'test') {
-  Object.assign(
-    config.rules,
-    {
-      // Lint formatting matches Prettier standards
-      'prettier/prettier': 'error',
+  Object.assign(config.rules, {
+    // Lint formatting matches Prettier standards
+    'prettier/prettier': 'error',
 
-      // Restrict dev only tools
-      'no-console': 'error',
-      'no-debugger': 'error',
-    },
-    // Include original ruleset for 'error' level linting in test
-    testRuleSet,
-  )
+    // Restrict dev only tools
+    'no-console': 'error',
+    'no-debugger': 'error',
+  })
 }
 
 module.exports = config

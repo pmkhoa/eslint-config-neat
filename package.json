@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Simple node package uses to get display name",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pmkhoa/eslint-config-neat.git"
@@ -17,12 +16,14 @@
   "homepage": "https://github.com/pmkhoa/eslint-config-neat#readme",
   "dependencies": {
     "babel-eslint": "^8.0.3",
+    "babel-jest": "^21.2.0",
     "eslint": "^4.13.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
-    "jest": "^21.2.1"
+    "jest": "^21.2.1",
+    "prettier": "^1.9.2"
   }
 }
