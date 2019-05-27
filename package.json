@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-neat",
-  "version": "1.0.2",
+  "version": "1.3.0",
   "description": "ESLint Standard Config with Prettier and Airbnb style",
   "main": "index.js",
   "scripts": {},
